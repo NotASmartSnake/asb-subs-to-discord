@@ -1,0 +1,11 @@
+[package]
+name = "subtitle-display"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures-util = "0.3.30"
+http = "1.1.0"
+serenity = "0.12.2"
+tokio = { version="1.39.3", features=["macros", "rt-multi-thread"] }
+tokio-websockets = { version="0.9.0", features=["server", "client", "sha1_smol", "getrandom"] }
